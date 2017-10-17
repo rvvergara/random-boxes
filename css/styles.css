@@ -1,0 +1,10 @@
+.red	{
+	width: 25%;
+	height: 100px;
+	background-color: red;
+	float: left;
+}
+
+.highlight	{
+	background-color: yellow;
+}

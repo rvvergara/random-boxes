@@ -1,8 +1,11 @@
 .red	{
 	width: 25%;
-	height: 100px;
+	height: 70px;
 	background-color: red;
 	float: left;
+	color: red;
+	padding-top: 30px;
+	text-align: center;
 }
 
 .highlight	{

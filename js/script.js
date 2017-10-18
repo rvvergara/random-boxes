@@ -4,8 +4,12 @@ mainDiv.setAttribute("id","mainDiv");
 
 for(var i=0;i<16;i++){
 	var myDiv = document.createElement("div");
-	mainDiv.appendChild(myDiv);
+	//create random numbers to be included in each div
+	var random1 = Math.round(Math.random()*10000);
 	myDiv.setAttribute("class","red");
+	myDiv.innerHTML = "$"+random1;
+	mainDiv.appendChild(myDiv);
+
 }
 
 function highlight(e){
